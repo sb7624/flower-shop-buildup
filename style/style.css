@@ -233,3 +233,96 @@ body{
     border: none;
 }
 
+
+
+
+/* .self-try */
+
+.self-try{
+    height: 300px;
+    /* border: 2px solid brown; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.self-try-one{
+    /* border: 1px solid black; */
+    width: 150px;
+    
+}
+
+/* .self-try-one img{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+} */
+
+ 
+
+.self-try-one{
+    margin-right: 120px;
+    margin-bottom: 5px;
+
+}
+
+.self-try-one img{
+    width: 40%;
+    margin-left: 30%;   
+    /* border: 2px solid black; */
+    height:50px;
+    
+}
+
+.self-try-one h6{
+    text-align: center;
+}
+
+.self-try-two{
+    margin-right: 120px;
+}
+
+.self-try-two{
+    /* border: 1px solid black; */
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.self-try-two img{
+    width: 40%;
+    margin-left: 30%;   
+    /* border: 2px solid black; */
+    height:50px;
+    
+}
+
+.self-try-two h6{
+    text-align: center;
+}
+
+.self-try-three{
+    /* border: 1px solid black; */
+    width: 150px;
+    margin-bottom: 30px;
+    
+}
+
+.self-try-three img{
+    width: 40%;
+    margin-left: 30%;   
+    /* border: 2px solid black; */
+    height:50px;
+    
+    
+}
+
+.self-try-three h6{
+    text-align: center;
+}
+
+
+
+
