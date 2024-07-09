@@ -1,0 +1,235 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.banner-section-container{
+    max-width: 1440px;
+    height: 590px;
+    /* border: 2px solid red; */
+    background: rgba(229, 84, 115, 0.1);
+    
+}
+
+.banner-container{
+    display: flex;
+    /* border: 2px solid red; */
+    width:90%;
+    margin: 0 auto;
+}
+
+.banner-text-container{
+    width: 40%;
+    /* border: 2px solid green; */
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-container button{
+    margin-right: 338px;
+    padding: 10px 20px;
+    background-color: rgb(229, 84, 115);
+    width:130px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.banner-image-container{
+    width: 60%;
+    /* border: 2px solid blue; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid tomato; */
+    margin-top: 10px;
+}
+
+.banner-image-container img{
+    width: 50%;
+    /* border: 2px solid blue; */
+    height: 550px;
+    
+}
+
+
+
+
+
+/* main section */
+
+.featured-image-container{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    /* border: 2px solid red ; */
+    margin-top: 120px;
+}
+
+
+.featured-title-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.featured-title-container p{
+    text-align: center;
+}
+
+.featured-images{
+    display: flex;
+    margin-top: 30px;
+    /* border: 2px solid blue; */
+    height: 280px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.first-image, .second-image{
+    width: 280px;
+    height: 280px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(167, 33, 98, 0.15);
+    /* margin-bottom: 80px; */
+
+}
+
+.third-image{
+    /* border: 2px solid black; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    /* border-radius: 50% 50% 0 0; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* .third-image img{
+    
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 50% 50% 0 0;
+}
+
+.first-image img{
+    width: 50%;
+    margin: 0 auto; 
+    border: 2px solid black;
+    border-radius: 50% 50% 0 0;
+    
+}
+
+.second-image img{
+    width: 50%;
+    margin: 0 auto; 
+    border: 2px solid black;
+    border-radius: 50% 50% 0 0;
+   
+} */
+
+.first-image img{
+    width: 60%;
+    height:80%;
+    /* border: 1px solid black; */
+}
+
+.second-image img{
+    width: 60%;
+    height:80%;
+}
+
+.third-image img{
+    width: 60%;
+    height:80%;
+    /* border: 1px solid black; */
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+.super-deals-container{
+    border: 1px solid red;
+    height: 350px;
+    width:90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* background-color: rgb(227, 229, 231); */
+    background-image: url(../images/latest-deals-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.super-deals-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-content p{
+    /* margin: 20px; */
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+}
+
+.main-content input{
+    width:300px;
+    height:40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius: 2px;
+    
+
+} 
+
+.main-content button{
+    border-radius: 3px;
+    background: rgb(229, 84, 115);
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
