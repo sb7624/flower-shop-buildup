@@ -240,12 +240,15 @@ body{
 
 .self-try{
     height: 300px;
-    /* border: 2px solid brown; */
-    margin-top: 30px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
 }
 
 .self-try-one{
